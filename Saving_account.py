@@ -19,7 +19,8 @@ class SavingsAccount:
         print(f"Current balance: {self.balance}")
 
 account=SavingsAccount()
-st.title("Savings Account")
+st.title("WIRE BANK")
+st.subheader("Saving Account")
 
 st.sidebar.header("MENU")
 chioce= st.sidebar.selectbox("Choose an option",["Deposit","Withdraw","Check Balance"])
